@@ -37,36 +37,3 @@ Customer retention is critical for subscription and banking services. This proje
 * **Data Handling:** Pandas, NumPy
 * **Serialization:** Joblib
 * **Web Framework:** Streamlit
-
----
-
-## 📁 Repository Structure
-
-```text
-Streamlit-Churn-App/
-│
-├── outputs/
-│   └── xgboost_best_model.pkl    # Serialized tuned XGBoost model
-│
-├── app.py                         # Streamlit interactive application
-├── requirements.txt               # Dependencies list
-├── .gitignore                     # Git exclusion rules
-└── README.md                      # Project documentation
-
-
-🚀 How to Run Locally
-
-1. Clone the Repository
-
-	git clone https://github.com/MoBa-create/XGBoost-Churn-Tuning.git
-cd XGBoost-Churn-Tuning
-
-2. Install Dependencies
-
-	pip install -r requirements.txt
-
-3. Launch the Streamlit App
-
-	streamlit run app.py
-
-Open http://localhost:8501 in your web browser.
